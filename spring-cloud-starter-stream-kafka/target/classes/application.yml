@@ -1,0 +1,21 @@
+
+spring:
+    cloud:
+        stream:
+            bindings:
+                xxxxxx:
+                    #接收原始消息
+                    consumer:
+                        headerMode: raw
+                    #消费者分组
+                    group: 1
+                    #监听kafka的topic
+                    destination: test
+                oooooooo:
+                  destination: test
+                  content-type: text/plain
+            kafka:
+                binder:
+                    #kafka对应的地址
+                  brokers: k8s-dev.kafka:9092
+                  zkNodes: k8s-dev.kafka:2181

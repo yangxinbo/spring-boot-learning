@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-learning.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-starter-stream-kafka/spring-cloud-starter-stream-kafka.iml" filepath="$PROJECT_DIR$/spring-cloud-starter-stream-kafka/spring-cloud-starter-stream-kafka.iml" />
     </modules>
   </component>
 </project>

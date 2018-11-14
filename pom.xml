@@ -24,6 +24,7 @@
     </properties>
 
     <modules>
+        <module>spring-cloud-starter-stream-kafka</module>
     </modules>
 
     <dependencyManagement>
